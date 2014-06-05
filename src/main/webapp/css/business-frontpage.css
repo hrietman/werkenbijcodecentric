@@ -1,0 +1,31 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.business-header {
+	height: 350px;
+	background: url('../img/cc_web_11_image_segelboot_740x295.jpg') center center no-repeat;
+	background-size: cover;
+}
+
+.hero-feature {
+    margin-bottom: 30px;/* spaces out the feature boxes once they start to stack responsively */
+}
+
+.top-buffer { margin-top:20px; }
+
+.text-align-middle {
+    vertical-align:middle;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+}
+
+footer {
+	margin: 50px 0;
+}
+

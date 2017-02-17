@@ -23,8 +23,8 @@ For more details see <a href="https://cloud.google.com/appengine/docs/java/tools
 
 When running mvn appengine:update and you get this:
 
-"Either the access code is invalid or the OAuth token is revoked.Details: invalid_grant"
+<pre>"Either the access code is invalid or the OAuth token is revoked.Details: invalid_grant"</pre>
 
 and then nothing, you need to delete
 
-~/.appcfg_oauth2_tokens_java
+<pre>~/.appcfg_oauth2_tokens_java</pre>

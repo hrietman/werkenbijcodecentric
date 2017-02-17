@@ -21,3 +21,10 @@ If you do this the first time you need to authorize yourself; you will be prompt
 
 For more details see <a href="https://cloud.google.com/appengine/docs/java/tools/maven">Google App Engine Maven Project</a>
 
+When running mvn appengine:update and you get this:
+
+"Either the access code is invalid or the OAuth token is revoked.Details: invalid_grant"
+
+and then nothing, you need to delete
+
+~/.appcfg_oauth2_tokens_java
